@@ -81,6 +81,7 @@
     <Folder Include="Assets\images\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\typings\impress\impress.d.ts" />
   </ItemGroup>
   <PropertyGroup>
