@@ -7,8 +7,15 @@
     background: -ms-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* IE10+ */
     background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+    background-image: url('../Assets/images/Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.canvasBackImageSetting{
+    background-size: 800px 600px;
+    background-repeat: no-repeat;
+}
 .impress-enabled .step {
     margin: 0;
     opacity: 0.0;
@@ -42,7 +49,7 @@
         line-height: 45px;
     }
     /*styling for slide Links*/
-    .slide a, .slide a:visited {
+    /*.slide a, .slide a:visited {
         color: #071529;
         text-decoration: none;
         background-color: #abc;
@@ -57,7 +64,7 @@
     /*styling for slide Text Area*/
     .slide .slide-text {
         height: 450px;
-    }
+    }*/
 /*styling for Div menu*/
 div.menu {
     border-top: 2px solid black;

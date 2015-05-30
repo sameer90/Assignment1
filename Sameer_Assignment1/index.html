@@ -8,35 +8,90 @@
     <link href="Css/reset.css" rel="stylesheet" />
     <link href="Css/main.css" rel="stylesheet" />
 </head>
-<body onload="init();">
-
+<body >
+    <!--onload="init();"-->
     <div id="impress">
 
         <!--First Slide-->
-        <div id="1" class="step slide">
-            <div class="slide-text">
-                <p>There is a time machine, flip the swtich</p><!--try doing it with ZEN Coding-->
-                <p><a href="#2">Flip</a> it.</p>
-                <p><a href="#3">Wait</a> for your dad, who is a scientist, to come home.</p>
-            </div> <!--END of Slide text-->
+        <div id="1" class="step slide canvasBackImageSetting" style="background: url('Assets/images/Entry.jpg');background-size: 850px 700px; ">
+            <div class="slide-text" style="text-align: center;">
+                <div style="width:100%;height:180px;border:1px solid white;">
+                </div>
+                <div style="margin-top: 260px;width:7%;text-align:center; height:100px;margin-left: auto;margin-right: auto;" align="center">
+                    <a href="#2" style="cursor:pointer;">
+                        <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:43px;" title="Click to Enter the home of Vampires!!" />
+                    </a>
+                </div>
+            </div> <!--END of Slide Contents-->
         </div>
         <!--END of Slide 1-->
+
         <!--Second Slide-->
-        <div id="2" class="slide step" data-x="1500">
-            <div class="slide-text">
-                <p>You went back in time, it was fun</p>
-                <div class="menu"><a href="#1">Start Over</a></div>
-            </div><!--END of Slide text-->
-        </div><!--END of Slide 2-->
-        <!--Second Slide-->
-        <div id="3" class="slide step" data-x="111500"><!-- data-y="-1500" data-x="-1500"-->
-            <div class="slide-text">
-                <p>You hung around for a while. You waitied for your dad</p>
-                <p>He wanted you to do your homework</p>
-                <p>It was really boring...</p>
-                <div class="menu"><a href="#1">Start Over</a></div>
-            </div><!--END of Slide text-->
-        </div><!--END of Slide 2-->
+        <div id="2" class="step slide canvasBackImageSetting"
+             data-z="-1000"
+             style="background-image: url('Assets/images/homeEntrance.jpg'); background-size: 820px 700px; ">
+            <div class="slide-text" style="text-align: center;">
+
+                <div style="margin-top: 210px;width:50%;margin-left:auto; margin-right:auto;height:130px;">
+                    <div style="float:left;width:21%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
+                        <a href="#left1" style="cursor:pointer;">
+                            <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-left:12px;" title="Click to Enter the home of Vampires!!" />
+                        </a>
+                    </div>
+                    <div style="float: right;width:21%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
+                        <a href="#right1" style="cursor:pointer;">
+                            <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-right:12px;" title="Click to Enter the home of Vampires!!" />
+                        </a>
+                    </div>
+                </div>
+
+                <div style="margin-top: 115px;width:100%;height:180px;border:1px solid white;">
+                    asdasdasdas
+                </div>
+            </div> <!--END of Slide Contents-->
+        </div>
+        <!--END of Slide 2-->
+
+        <!--Right 1 Slide-->
+        <div id="right1" class="step slide canvasBackImageSetting"
+             data-x="1000"
+             data-z="-1000"
+             style="background-image: url('Assets/images/right1Doors.png'); background-size: 820px 700px; ">
+            <div class="slide-text" style="text-align: center;">
+                 <div style="margin-top: 290px;width:60%;margin-left:auto; margin-right:auto;height:150px;">
+                    <div style="float:left;width:55%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
+                        <a href="#leftleft1" style="cursor:pointer;">
+                            <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-left:12px;" title="Click to Enter the home of Vampires!!" />
+                        </a>
+                    </div>
+                    <div style="float: right;width: 10%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
+                        <a href="#rightright2" style="cursor:pointer;">
+                            <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-right:12px;" title="Click to Enter the home of Vampires!!" />
+                        </a>
+                    </div>
+                </div>
+
+                <div style="margin-top: 45px;width:100%;height:150px;border:1px solid white;">
+
+                </div>
+            </div> <!--END of Slide Contents-->
+        </div>
+        <!--END of Right Right 1 Slide-->
+        <!--Right 1 Slide-->
+        <div id="rightright2" class="step slide canvasBackImageSetting"
+             data-x="1000"
+             data-z="-1000"
+             style="background-image: url('Assets/images/rightrightdoors.jpg'); background-size: 820px 700px; ">
+            <div class="slide-text" style="text-align: center;">
+                <div style="margin-top: 0px;width:100%;height:150px;border:1px solid white;color: white;">
+                    <p>Vampires attacked you!! You are Dead.</p><br/>
+                    <a href="#1" style="cursor:pointer;color:black;background-color: greenyellow;padding: 30px;">
+                        Start Over
+                    </a>
+                </div>
+            </div> <!--END of Slide Contents-->
+        </div>
+        <!--END of Right Right 1 Slide-->
 
     </div><!--END of Impress-->
     <!-- Javascript-->

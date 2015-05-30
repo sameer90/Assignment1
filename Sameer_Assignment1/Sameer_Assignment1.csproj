@@ -59,6 +59,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\right1Doors.png" />
+    <Content Include="Assets\images\homeEntrance.jpg" />
+    <Content Include="Assets\images\Background.jpg" />
+    <Content Include="Assets\images\redDot.gif" />
+    <Content Include="Assets\images\Entry.jpg" />
+    <Content Include="Assets\images\rightrightdoors.jpg" />
     <Content Include="Css\main.css" />
     <Content Include="Css\reset.css" />
     <Content Include="index.html" />
@@ -77,9 +83,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\typings\impress\impress.d.ts" />
