@@ -59,8 +59,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\corridoor.png" />
     <Content Include="Assets\images\corridoor3.png" />
+    <Content Include="Assets\images\door.jpg" />
     <Content Include="Assets\images\door2.jpg" />
+    <Content Include="Assets\images\door5.png" />
     <Content Include="Assets\images\pathway1.jpg" />
     <Content Include="Assets\images\right1Doors.png" />
     <Content Include="Assets\images\homeEntrance.jpg" />
@@ -68,6 +71,7 @@
     <Content Include="Assets\images\redDot.gif" />
     <Content Include="Assets\images\Entry.jpg" />
     <Content Include="Assets\images\rightrightdoors.jpg" />
+    <Content Include="Assets\images\room.jpg" />
     <Content Include="Css\main.css" />
     <Content Include="Css\reset.css" />
     <Content Include="index.html" />
