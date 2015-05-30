@@ -8,14 +8,21 @@
     <link href="Css/reset.css" rel="stylesheet" />
     <link href="Css/main.css" rel="stylesheet" />
 </head>
-<body >
+<body>
     <!--onload="init();"-->
     <div id="impress">
 
         <!--First Slide-->
         <div id="1" class="step slide canvasBackImageSetting" style="background: url('Assets/images/Entry.jpg');background-size: 850px 700px; ">
             <div class="slide-text" style="text-align: center;">
-                <div style="width:100%;height:180px;border:1px solid white;">
+                <div style="width:100%;height:180px;color:white;font-size:25px;">
+                    <p>
+                        This is an old mansion of the VAMPIRES.
+                    </p>
+                    <p>
+                        The player has to enter the mansion through the main door.
+                    </p>
+                    <p>Hint: Please Look for red blinking dots at each level</p>
                 </div>
                 <div style="margin-top: 260px;width:7%;text-align:center; height:100px;margin-left: auto;margin-right: auto;" align="center">
                     <a href="#2" style="cursor:pointer;">
@@ -25,7 +32,6 @@
             </div> <!--END of Slide Contents-->
         </div>
         <!--END of Slide 1-->
-
         <!--Second Slide-->
         <div id="2" class="step slide canvasBackImageSetting"
              data-z="-1000"
@@ -45,46 +51,51 @@
                     </div>
                 </div>
 
-                <div style="margin-top: 115px;width:100%;height:180px;border:1px solid white;">
-                    asdasdasdas
+                <div style="margin-top: 80px;width:100%;height:180px;font-size:25px;color:white;">
+                    <p>
+                        This looks like a main hall for Vampires where they plan there killings. Oh!! look to the left and right of the stairs.
+                        You must follow your instinct. Click one of the blinking red dot.
+                    </p>
+                    <p style="color: yellow;font-weight:bold;">
+                        !!BEWARE!! Vampires can be anywhere.
+                    </p>
                 </div>
             </div> <!--END of Slide Contents-->
         </div>
         <!--END of Slide 2-->
-
         <!--Right 1 Slide-->
         <div id="right1" class="step slide canvasBackImageSetting"
              data-x="1000"
              data-z="-1000"
              style="background-image: url('Assets/images/right1Doors.png'); background-size: 820px 700px; ">
             <div class="slide-text" style="text-align: center;">
-                 <div style="margin-top: 290px;width:60%;margin-left:auto; margin-right:auto;height:150px;">
+                <div style="margin-top: 290px;width:60%;margin-left:auto; margin-right:auto;height:150px;">
                     <div style="float:left;width:55%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
-                        <a href="#leftleft1" style="cursor:pointer;">
+                        <a href="#rightright2" style="cursor:pointer;">
                             <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-left:12px;" title="Click to Enter the home of Vampires!!" />
                         </a>
                     </div>
                     <div style="float: right;width: 10%;text-align:center; height:125px;margin-left: auto;margin-right: auto;" align="center">
-                        <a href="#rightright2" style="cursor:pointer;">
+                        <a href="#leftleft1" style="cursor:pointer;">
                             <img src="Assets/images/redDot.gif" widht="15" height="15" align="middle" alt="Click to Enter" style="margin-top:75px;margin-right:12px;" title="Click to Enter the home of Vampires!!" />
                         </a>
                     </div>
                 </div>
 
-                <div style="margin-top: 45px;width:100%;height:150px;border:1px solid white;">
+                <div style="margin-top: 45px;width:100%;height:150px;border:1px solid white;font-size:25px;color:white;">
 
                 </div>
             </div> <!--END of Slide Contents-->
         </div>
-        <!--END of Right Right 1 Slide-->
-        <!--Right 1 Slide-->
+        <!--END of Right 1 Slide-->
+        <!--Right Right 1 Slide-->
         <div id="rightright2" class="step slide canvasBackImageSetting"
              data-x="1000"
              data-z="-1000"
              style="background-image: url('Assets/images/rightrightdoors.jpg'); background-size: 820px 700px; ">
             <div class="slide-text" style="text-align: center;">
                 <div style="margin-top: 0px;width:100%;height:150px;border:1px solid white;color: white;">
-                    <p>Vampires attacked you!! You are Dead.</p><br/>
+                    <p>Vampires attacked you!! You are Dead.</p><br />
                     <a href="#1" style="cursor:pointer;color:black;background-color: greenyellow;padding: 30px;">
                         Start Over
                     </a>
@@ -92,7 +103,21 @@
             </div> <!--END of Slide Contents-->
         </div>
         <!--END of Right Right 1 Slide-->
-
+        <!--Left Left 1 Slide-->
+        <div id="leftleft1" class="step slide canvasBackImageSetting"
+             data-x="1000"
+             data-z="-1000"
+             style="background-image: url('Assets/images/rightrightdoors.jpg'); background-size: 820px 700px; ">
+            <div class="slide-text" style="text-align: center;">
+                <div style="margin-top: 0px;width:100%;height:150px;border:1px solid white;color: white;">
+                    <p>Vampires attacked you!! You are Dead.</p><br />
+                    <a href="#1" style="cursor:pointer;color:black;background-color: greenyellow;padding: 30px;">
+                        Start Over
+                    </a>
+                </div>
+            </div> <!--END of Slide Contents-->
+        </div>
+        <!--END of Right Right 1 Slide-->
     </div><!--END of Impress-->
     <!-- Javascript-->
     <script src="Scripts/lib/impress.js"></script>
